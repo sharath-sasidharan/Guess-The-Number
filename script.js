@@ -9,9 +9,9 @@ let check = document.querySelector(".check");
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highscore = 0;
-
 let displayMessage = (message) => {
   operation.textContent = message;
+  console.log(message);
 };
 
 check.addEventListener("click", function () {
